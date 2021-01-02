@@ -16,8 +16,16 @@ input {
     border-radius: 4px;
 }
 
+#login-text {
+    margin: 10px auto;
+    padding: 10px;
+    width: 35%;
+    border: darksalmon inset;
+    text-align: center;
+}
+
 #textboxes {
-    margin: 100px auto;
+    margin: 0 auto;
     width: 35%;
     border-style: outset;
     border-color: rgb(104, 230, 230);
@@ -40,4 +48,13 @@ input {
 #username {
     padding-right: 2px;
     font-size: 20px;
+}
+
+footer {
+    background-color: darksalmon;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2%;
+
 }
