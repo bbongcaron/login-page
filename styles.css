@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header > h1 {
+    background-color: darksalmon;
+    padding: 2% 2%;
+    text-align: center;
+}
+
+input {
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border-radius: 4px;
+}
+
+#textboxes {
+    margin: 100px auto;
+    width: 35%;
+    border-style: outset;
+    border-color: rgb(104, 230, 230);
+    text-align: center;  
+}
+
+#username-div {
+    padding: 5% 0 1%;
+}
+
+#password-div {
+    padding: 1% 0 5%;
+}
+
+#password {
+    padding-right: 6px;
+    font-size: 20px;
+}
+
+#username {
+    padding-right: 2px;
+    font-size: 20px;
+}
